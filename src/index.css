@@ -1,0 +1,141 @@
+/* Global Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF4E0; /* Light orange background */
+  color: #5C3D2E; /* Dark brown text */
+  padding: 20px;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #FFF8E7; /* Lighter orange */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Summary Section */
+.summary {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Typography */
+h1, h2 {
+  color: #E76F51; /* Burnt orange for headers */
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+button {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Specific Buttons */
+button.bg-yellow-500 {
+  background-color: #FBBF24; /* Yellow */
+}
+
+button.bg-yellow-500:hover {
+  background-color: #F59E0B; /* Darker yellow */
+}
+
+button.bg-red-500 {
+  background-color: #EF4444; /* Red */
+}
+
+button.bg-red-500:hover {
+  background-color: #DC2626; /* Darker red */
+}
+
+button.bg-blue-500 {
+  background-color: #3B82F6; /* Blue */
+}
+
+button.bg-blue-500:hover {
+  background-color: #2563EB; /* Darker blue */
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #E3B505; /* Gold border */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #E76F51; /* Burnt orange focus */
+  outline: none;
+  box-shadow: 0 0 4px #E76F51;
+}
+
+/* Income and Expense Colors */
+.bg-green-100 {
+  background-color: #D1FAE5; /* Light green */
+}
+
+.bg-red-100 {
+  background-color: #FEE2E2; /* Light red */
+}
+
+/* Pie Chart Styling (Optional) */
+.chart-container {
+  padding: 20px;
+  background-color: #FFF8E7; /* Same as card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
